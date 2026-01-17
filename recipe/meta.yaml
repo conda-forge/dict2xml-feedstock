@@ -1,5 +1,5 @@
 {% set name = "dict2xml" %}
-{% set version = "1.7.7" %}
+{% set version = "1.7.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dict2xml-{{ version }}.tar.gz
-  sha256: ae47873a584921430d3b74f0f63db98b59f6cafc038b14619c65e83cf717608f
+  sha256: 6638da9ad32b0f8be8336d16e0f36a9c3821145e34ed3ef4889822a9b980fb28
 
 build:
   noarch: python
